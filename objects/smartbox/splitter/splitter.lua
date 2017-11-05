@@ -7,7 +7,7 @@ function init()
 end
 
 function update(dt)
-	q = deltaTime + dt
+	deltaTime = deltaTime + dt
 	if deltaTime > 1 then
 		deltaTime = 0
 		transferUtil.loadSelfContainer()
